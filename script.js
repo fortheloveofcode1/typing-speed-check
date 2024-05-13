@@ -71,6 +71,7 @@ userInput.addEventListener("input", () => {
 function updateTimer() {
     if (time == 0) {
         displayResult();
+        alert(" try again , time is up ")
     }
     else {
         document.getElementById("timer").innerText = --time + "s";
